@@ -1,0 +1,12 @@
+.item-list-container {
+    width: 100%;
+    min-height: 90vh;
+
+    text-align: center;
+    
+    background-color: gold;
+}
+
+.item-list-container .item-list-container-heading {
+    padding-top: 45vh;
+}

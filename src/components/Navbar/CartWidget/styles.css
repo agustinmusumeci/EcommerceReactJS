@@ -1,0 +1,17 @@
+.cart-widget {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: azure; */
+}
+
+.cart-widget .cart-icon{
+    height: 3em;
+}
+
+.cart-widget .cart-widget-count {
+    margin-top: 1em !important;
+    padding: 0.2em;
+}
