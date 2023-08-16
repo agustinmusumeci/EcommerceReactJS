@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Basics",
+    "category": "tshirt",
+    "price": "20,00",
+    "description": "Plain black tshirt with rounded neck, oversized and fit.",
+    "amount": "1",
+    "stock": "5",
+    "img": "./src/assets/img/basics-tshirt.webp"
+  },
+  {
+    "id": "2",
+    "name": "Contemplation",
+    "category": "tshirt",
+    "price": "35,00",
+    "description": "Brown tshirt with rounded neck and with print on the back.",
+    "amount": "1",
+    "stock": "5",
+    "img": "./src/assets/img/contemplation-tshirt.webp"
+  },
+  {
+    "id": "3",
+    "name": "Daunt",
+    "category": "tshirt",
+    "price": "40,00",
+    "description": "Black tshirt with rounded neck and with print on the front.",
+    "amount": "1",
+    "stock": "5",
+    "img": "./src/assets/img/daunt-tshirt.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Dizzi",
+    "category": "tshirt",
+    "price": "30,00",
+    "description": "Black tshirt with rounded neck and with print on the back and front, regular fit.",
+    "amount": "1",
+    "stock": "10",
+    "img": "./src/assets/img/dizzi-tshirt.webp"
+  },
+  {
+    "id": "5",
+    "name": "Handwritting",
+    "category": "tshirt",
+    "price": "30,00",
+    "description": "Black tshirt with rounded neck and with print on the back and front, regular fit.",
+    "amount": "1",
+    "stock": "5",
+    "img": "./src/assets/img/handwritting-tshirt.webp"
+  },
+  {
+    "id": "6",
+    "name": "Striped",
+    "category": "tshirt",
+    "price": "25,00",
+    "description": "Long tricolor shirt with rounded neck and striped cotton, regular fit.",
+    "amount": "1",
+    "stock": "5",
+    "img": "./src/assets/img/striped-tshirt.webp"
+  }
+]

@@ -1,0 +1,36 @@
+@import "./itemcard/__itemcard.scss";
+
+.items-container {
+    width: 100%;
+    min-height: 90vh;
+
+    padding: 2rem 0 2rem 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    background-color: yellow;
+
+    .items-list {
+        width: 100%;
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.items-heading {
+    padding: 0rem 0 2rem 0;
+
+    text-align: center;
+
+    background-color: yellow;
+}
+

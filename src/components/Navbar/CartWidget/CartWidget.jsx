@@ -1,5 +1,4 @@
 import Cart from "../../../assets/icons/cart.svg"
-import './styles.css'
 
 function CartWidget() {
     

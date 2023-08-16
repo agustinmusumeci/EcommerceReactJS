@@ -1,0 +1,39 @@
+.item-counter {
+    display: flex;
+
+    flex-direction: row-reverse;
+
+    justify-content: center;
+    align-items: center;
+
+    .btn {
+        margin:0 0 0 1rem;
+
+        border: 0;
+        border-radius: 0;
+
+        background-color: red;
+    }
+
+    .btn:active {
+        background-color: black
+    }
+
+    .MuiNumberInput-root {
+            display: flex;
+    
+            flex-direction: row-reverse;
+
+            .MuiNumberInput-decrementButton, .MuiNumberInput-incrementButton {
+                border: 0;
+            }
+    
+            .MuiNumberInput-input {
+                width: 2rem;
+
+                text-align: center;
+                
+                border: 0;
+            }
+        }
+}

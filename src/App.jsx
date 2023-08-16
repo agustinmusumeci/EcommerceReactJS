@@ -1,26 +1,35 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import './App.css'
-import Navbar from './components/Navbar'
-import ItemListContainer from './components/ItemListContainer'
-import FeaturedProducts from './components/FeaturedProducts'
-import Footer from './components/Footer'
+// COMPONENTS
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 
+// PAGES
+import Home from './pages/HomePage/Home'
+import Products from './pages/ProductsPage/Products'
+import Detail from './pages/DetailPage/Detail'
+
+// STYLE
+import "./styles/main.scss"
 
 function App() {
-  
-  const greetings = "Hello people! The number 1 clothing brand over the world."
-  // const showcase = "Here will the showcase of products."
-  // const info = "We are a new clothing brand specialized in hoodies and pants in order to make yours aesthetics better."
 
   return (
-    <main className='main'>
-      <Navbar/>
-      <ItemListContainer greeting={greetings}/>
-      <FeaturedProducts/>
-      <Footer/>
-    </main>
+    <Router>
+      <header>
+        <Navbar/>
+      </header>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/products" element={<Products/>}/>
+        <Route/>
+        <Route path="/detail/:name" element={<Detail/>}/>
+        <Route path="*" element={"error"}/>
+      </Routes>
+        <Footer/>
+    </Router>
   );
 }
 
