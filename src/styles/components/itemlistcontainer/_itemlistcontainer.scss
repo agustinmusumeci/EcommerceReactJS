@@ -1,4 +1,4 @@
-@import "./itemcard/__itemcard.scss";
+@use "./itemcard/__itemcard.scss" as *;
 
 .items-container {
     width: 100%;

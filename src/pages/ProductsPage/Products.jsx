@@ -1,14 +1,20 @@
-// CUSTOM HOOK
+// COMPONENTS
 import ItemListContainer from "../../components/ItemListContainer/ItemListContainer";
-import useFetch from "../../hooks/useFetch";
+import Filter from "../../components/Filter/Filter";
+
+// CUSTOM HOOK
+import useFilters from "../../hooks/useFilters";
 
 function Products() {
 
-    const products = useFetch()
+    const {filters, filteredProducts, setFilters} = useFilters()
 
     return (
         <>
-            <ItemListContainer/>
+            
+            <ItemListContainer data={filteredProducts} isFeatured={false}>
+                <Filter/>
+            </ItemListContainer>
         </>
     );
 }

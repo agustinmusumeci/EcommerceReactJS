@@ -3,60 +3,143 @@
     "id": "1",
     "name": "Basics",
     "category": "tshirt",
-    "price": "20,00",
+    "price": "20.00",
     "description": "Plain black tshirt with rounded neck, oversized and fit.",
-    "amount": "1",
+    "amount": 0,
     "stock": "5",
-    "img": "./src/assets/img/basics-tshirt.webp"
+    "img": "./src/assets/img/basics-tshirt.webp",
+    "featured" : "false"
   },
   {
     "id": "2",
     "name": "Contemplation",
     "category": "tshirt",
-    "price": "35,00",
+    "price": "35.00",
     "description": "Brown tshirt with rounded neck and with print on the back.",
-    "amount": "1",
+    "amount": 0,
     "stock": "5",
-    "img": "./src/assets/img/contemplation-tshirt.webp"
+    "img": "./src/assets/img/contemplation-tshirt.webp",
+    "featured" : "true"
   },
   {
     "id": "3",
     "name": "Daunt",
     "category": "tshirt",
-    "price": "40,00",
+    "price": "40.00",
     "description": "Black tshirt with rounded neck and with print on the front.",
-    "amount": "1",
+    "amount": 0,
     "stock": "5",
-    "img": "./src/assets/img/daunt-tshirt.jpg"
+    "img": "./src/assets/img/daunt-tshirt.jpg",
+    "featured" : "false"
   },
   {
     "id": "4",
     "name": "Dizzi",
     "category": "tshirt",
-    "price": "30,00",
+    "price": "30.00",
     "description": "Black tshirt with rounded neck and with print on the back and front, regular fit.",
-    "amount": "1",
+    "amount": 0,
     "stock": "10",
-    "img": "./src/assets/img/dizzi-tshirt.webp"
+    "img": "./src/assets/img/dizzi-tshirt.webp",
+    "featured" : "true"
   },
   {
     "id": "5",
     "name": "Handwritting",
     "category": "tshirt",
-    "price": "30,00",
+    "price": "30.00",
     "description": "Black tshirt with rounded neck and with print on the back and front, regular fit.",
-    "amount": "1",
+    "amount": 0,
     "stock": "5",
-    "img": "./src/assets/img/handwritting-tshirt.webp"
+    "img": "./src/assets/img/handwritting-tshirt.webp",
+    "featured" : "true"
   },
   {
     "id": "6",
     "name": "Striped",
     "category": "tshirt",
-    "price": "25,00",
+    "price": "25.00",
     "description": "Long tricolor shirt with rounded neck and striped cotton, regular fit.",
-    "amount": "1",
+    "amount": 0,
     "stock": "5",
-    "img": "./src/assets/img/striped-tshirt.webp"
+    "img": "./src/assets/img/striped-tshirt.webp",
+    "featured" : "false"
+  },
+  {
+    "id": "7",
+    "name":"Travis",
+    "category":"pant",
+    "price":"50.00",
+    "description":"Basic brown fit cotton pant with 5 pockets.",
+    "amount": 0,
+    "stock": "5",
+    "img": "./src/assets/img/travis-pant.webp",
+    "featured": "false"
+  },
+  {
+    "id": "8",
+    "name":"Felix",
+    "category":"pant",
+    "price":"55.00",
+    "description":"Basic grey cargo raincoat pant with 6 pockets.",
+    "amount": 0,
+    "stock": "5",
+    "img": "./src/assets/img/felix-pant.webp",
+    "featured": "false"
+  },
+  {
+    "id": "9",
+    "name":"Roman",
+    "category":"pant",
+    "price":"60.00",
+    "description":"Basic blue jean pant with 4 pockets.",
+    "amount": 0,
+    "stock": "10",
+    "img": "./src/assets/img/roman-pant.webp",
+    "featured": "true"
+  },
+  {
+    "id": "10",
+    "name":"Raceline",
+    "category":"hoodie",
+    "price":"70.00",
+    "description":"Purple/Black cotton Hoodie with a print on the back.",
+    "amount": 0,
+    "stock": "15",
+    "img": "./src/assets/img/raceline-hoodie.webp",
+    "featured": "true"
+  },
+  {
+    "id": "11",
+    "name":"Ludacris",
+    "category":"hoodie",
+    "price":"62.50",
+    "description":"Brown cotton Hoodie whitout pockets.",
+    "amount": 0,
+    "stock": "9",
+    "img": "./src/assets/img/ludacris-hoodie.webp",
+    "featured": "true"
+  },
+  {
+    "id": "12",
+    "name":"Ian",
+    "category":"pant",
+    "price":"55.00",
+    "description":"Baggy cotton shortpant with 5 pockets.",
+    "amount": 0,
+    "stock": "5",
+    "img": "./src/assets/img/ian-pant.webp",
+    "featured": "false"
+  },
+  {
+    "id": "13",
+    "name":"Blackout",
+    "category":"hoodie",
+    "price":"47.25",
+    "description":"Rustic cotton hoodie with a print on the back and the sleves.",
+    "amount": 0,
+    "stock": "2",
+    "img": "./src/assets/img/blackout-hoodie.webp",
+    "featured": "false"
   }
 ]

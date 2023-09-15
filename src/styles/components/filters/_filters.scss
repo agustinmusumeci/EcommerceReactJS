@@ -1,0 +1,16 @@
+.filters {
+    padding-bottom: 2em;    
+    display: grid;
+    place-items: center;
+
+    background-color: yellow;
+
+    .filter-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        align-items: center;
+    }
+}

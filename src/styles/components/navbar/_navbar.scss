@@ -1,5 +1,5 @@
-@import "./cartwidget/_cartwidget";
-@import "./marquee/_marque";
+@use "./cartwidget/_cartwidget" as *;
+@use "./marquee/_marque" as *;
 
 a {
     color: black;
@@ -57,7 +57,6 @@ ul {
     }
 }
 
-
 .cart-widget {
     position: absolute;
 
@@ -65,4 +64,37 @@ ul {
     right: 1em;
 
     z-index: 11;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    padding: 0 !important;
+
+    font-family: system-ui,
+        -apple-system,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        "Noto Sans",
+        "Liberation Sans",
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji" !important;
+    font-weight: 400 !important;
+    font-size: 0.95em !important;
+
+    text-transform: lowercase !important;
+
+    line-height: 0 !important;
+    vertical-align: 0  !important;
+    
+    color:#000 !important ;
+
+}
+
+.category-button {
+    border: 0;
+    background-color: #fff;
 }

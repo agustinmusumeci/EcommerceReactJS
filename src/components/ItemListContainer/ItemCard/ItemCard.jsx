@@ -15,7 +15,7 @@ function ItemCard({product}) {
                     <h5 className="card-title">{product.name} {product.category}</h5>
                     <p className="card-text">{product.description}</p>
                     <p className="card-price">$ {product.price}</p>
-                    <ItemCount max={product.stock}/>
+                    <ItemCount max={product.stock} product={{product}}/>
                 </div>
         </div>
     );

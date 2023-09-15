@@ -12,9 +12,7 @@ function useFetch(){
 
     useEffect(
         () => {
-            
         setTimeout(getProducts, 1000);
-
         }, []
     )
 

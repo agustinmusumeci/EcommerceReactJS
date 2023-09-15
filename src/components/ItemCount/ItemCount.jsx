@@ -1,11 +1,19 @@
 import { Unstable_NumberInput as NumberInput } from '@mui/base/Unstable_NumberInput';
 
-function ItemCount(max) {  
+// CUSTOM HOOKS
+import useCart from '../../hooks/useCart';
+
+
+
+function ItemCount({product}) {  
+
+    const {cart, addToCart, delFromCart, clearCart} = useCart();
+
 
     return (
         <div className='item-counter'>
-            <button href="#" className="btn btn-primary">Add</button>
-            <NumberInput min={0} max={parseInt(max.max)} step={1}
+            <button href="#" className="btn btn-primary" onClick={() => {addToCart(product)}} >Add</button>
+            <NumberInput min={0} max={product.stock} step={1}
             slotProps={{
                 incrementButton: { children: "+" },
                 decrementButton: { children: "-" },

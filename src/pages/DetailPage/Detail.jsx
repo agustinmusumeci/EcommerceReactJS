@@ -3,10 +3,16 @@ import { useParams } from "react-router-dom";
 // COMPONENTS
 import ItemDetailContainer from "../../components/ItemDetailContainer/ItemDetailContainer";
 
+// HOOKS
+import { useId } from "react";
+
 // CUSTOM HOOK
 import useFetch from "../../hooks/useFetch";
 
+
 function Detail() {
+
+    const boxId = useId()
 
     let { name } = useParams();
 
@@ -16,9 +22,10 @@ function Detail() {
         <>
             {products.map(
                 (product) => (
-                    name == product.name ? <ItemDetailContainer key={product.id} data={product}/> : console.log("a")
-                )
-            )}
+                    product.name === name
+                    &&
+                    <ItemDetailContainer key={product.id} data={product}/> 
+            ))}
         </>
     );
 }

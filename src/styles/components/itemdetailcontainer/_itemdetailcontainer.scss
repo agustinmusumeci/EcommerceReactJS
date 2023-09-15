@@ -1,9 +1,11 @@
 .item-detail-container {
     max-width: 100%;
+    min-height: 50svh;
     
     padding: 2rem 0 2rem 0;
 
-    text-align: center;
+    display: grid;
+    place-items: center;
 
     background-color: yellow;
 
